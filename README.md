@@ -1,11 +1,10 @@
 # River Otter Species Distribution Modeling in Texas  
 **GBIF → Maxnet → Scenario Projections**
 
-**Author:** Ty J. Werdel  
-**Affiliation:** Department of Rangeland, Wildlife & Fisheries Management,  
-Texas A&M University, College Station, TX, USA  
+**Author:** ANONYMOUS FOR REVIEW  
+**Affiliation:** ANONYMOUS FOR REVIEW 
 
-**Correspondence:** ty.werdel@ag.tamu.edu  
+**Correspondence:** ANONYMOUS FOR REVIEW  
 
 ---
 
@@ -34,7 +33,7 @@ described in the manuscript.
 This repository is designed to support full computational reproducibility.
 
 1. Clone this repository (or download as a ZIP):
-   https://github.com/tywerdel/RiverOtterSDM
+   ANONYMOUS FOR REVIEW
 
 2. Download large raster datasets from Zenodo (DOI: XXXXX).
 
@@ -90,11 +89,10 @@ by the R scripts. Folder names should not be changed.
 # River Otter Species Distribution Modeling in Texas  
 **GBIF → Maxnet → Scenario Projections**
 
-**Author:** Ty J. Werdel  
-**Affiliation:** Department of Rangeland, Wildlife & Fisheries Management,  
-Texas A&M University, College Station, TX, USA  
+**Author:** ANONYMOUS FOR REVIEW  
+**Affiliation:** ANONYMOUS FOR REVIEW
 
-**Correspondence:** ty.werdel@ag.tamu.edu  
+**Correspondence:** ANONYMOUS FOR REVIEW 
 
 ---
 
