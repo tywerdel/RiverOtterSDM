@@ -1,0 +1,2 @@
+max_edge_km,n_patches_Current,n_patches_NatOnly,n_components_Current,n_components_NatOnly,largest_comp_sz_Current,largest_comp_sz_NatOnly,mean_degree_Current,mean_degree_NatOnly,edge_density_Current,edge_density_NatOnly,d_n_patches,d_n_components,d_largest_comp_sz,d_mean_degree,d_edge_density
+7,1,1,1,1,1,1,0,0,NA,NA,0,0,0,0,NA

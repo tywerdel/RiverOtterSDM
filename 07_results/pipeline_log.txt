@@ -1,0 +1,162 @@
+2025-12-17 10:02:26 | STEP A | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:02:26 | STEP A | Output locations:
+2025-12-17 10:02:26 |   - 02_occ/Otter_TX_Cleaned_Geocoded.csv
+2025-12-17 10:02:27 | STEP A | Cleaned independent georeferenced records (n): 966  [manuscript cross-check]
+2025-12-17 10:02:27 | STEP B | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:02:27 | STEP B | Output locations:
+2025-12-17 10:02:27 |   - 07_results/Otter_TX_CountyPresence.csv
+2025-12-17 10:02:27 |   - 07_results/Otter_TX_PeriodSummary_records_by_county.csv
+2025-12-17 10:02:27 |   - 07_results/Otter_TX_NewCounties_by_FirstDetectionPeriod.csv
+2025-12-17 10:02:27 | STEP B | Counties with ≥1 record (n): 107  [manuscript cross-check]
+2025-12-17 10:02:27 | STEP B | New counties by first-detection period (table):
+2025-12-17 10:02:27 | STEP B | Reporting results (from disk)
+2025-12-17 10:02:27 | STEP C1 | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:02:27 | STEP C1 | Output locations:
+2025-12-17 10:02:27 |   - 01_intermediate/dens_nat_km2.tif
+2025-12-17 10:02:27 |   - 01_intermediate/dens_hum_km2.tif
+2025-12-17 10:02:27 |   - 01_intermediate/dens_all_km2.tif
+2025-12-17 10:02:27 | STEP C1 | Density rasters ready for extraction/prediction.
+2025-12-17 10:02:27 | STEP C2 | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:02:27 | STEP C2 | Output locations:
+2025-12-17 10:02:27 |   - 01_intermediate/dist_major_rivers_km.tif
+2025-12-17 10:02:27 | STEP C2 | Distance raster ready for extraction/prediction.
+2025-12-17 10:02:27 | STEP D | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:02:27 | STEP D | Output locations:
+2025-12-17 10:02:27 |   - 02_occ/pres_thin_10km.csv
+2025-12-17 10:02:27 |   - 02_occ/Otter_TX_Presence_Env.csv
+2025-12-17 10:02:27 | STEP D | Thinned presence points (n): 365  [manuscript cross-check]
+2025-12-17 10:02:27 | STEP D | Presence env table rows (n complete cases): 365
+2025-12-17 10:02:27 | STEP E | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:02:28 | STEP E | Output locations:
+2025-12-17 10:02:28 |   - 02_occ/Otter_TX_Background_Env.csv
+2025-12-17 10:02:28 | STEP E | Background samples extracted (n complete cases): 10000
+2025-12-17 10:02:28 | STEP F | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:02:28 | STEP F | Output locations:
+2025-12-17 10:02:28 |   - 03_models/Otter_Maxnet_kfold_tuning_results.csv
+2025-12-17 10:02:28 |   - 03_models/Otter_Maxnet_kfold_fold_metrics.csv
+2025-12-17 10:02:28 | STEP F | Best CV model (from disk): fc=lqh rm=0.5 | mean AUC=0.8579 ± 0.0114 | mean omit10=0.1151 ± 0.046  [manuscript cross-check]
+2025-12-17 10:02:28 | STEP G | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:02:28 | STEP G | Output locations:
+2025-12-17 10:02:28 |   - 03_models/Otter_Maxnet_NHD_natHum.rds
+2025-12-17 10:02:28 |   - 03_models/Otter_Maxnet_NHD_omit10.txt
+2025-12-17 10:02:28 | STEP G | Omit-10% threshold (cloglog): 0.351205  [manuscript cross-check]
+2025-12-17 10:02:28 | STEP H | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:02:28 | STEP H | Output locations:
+2025-12-17 10:02:28 |   - 04_pred/Otter_Maxnet_NHD_current_cloglog.tif
+2025-12-17 10:02:28 |   - 04_pred/Otter_Maxnet_NHD_noHuman_cloglog.tif
+2025-12-17 10:02:28 | STEP H | Reminder: threshold for GIS binary maps (omit-10% cloglog) = 0.351205
+2025-12-17 10:02:28 | STEP I | RUNNING (overwrite=FALSE)
+2025-12-17 10:04:06 | STEP A | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:04:06 | STEP A | Output locations:
+2025-12-17 10:04:06 |   - 02_occ/Otter_TX_Cleaned_Geocoded.csv
+2025-12-17 10:04:06 | STEP A | Cleaned independent georeferenced records (n): 966  [manuscript cross-check]
+2025-12-17 10:04:07 | STEP B | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:04:07 | STEP B | Output locations:
+2025-12-17 10:04:07 |   - 07_results/Otter_TX_CountyPresence.csv
+2025-12-17 10:04:07 |   - 07_results/Otter_TX_PeriodSummary_records_by_county.csv
+2025-12-17 10:04:08 |   - 07_results/Otter_TX_NewCounties_by_FirstDetectionPeriod.csv
+2025-12-17 10:04:08 | STEP B | Counties with ≥1 record (n): 107  [manuscript cross-check]
+2025-12-17 10:04:08 | STEP B | New counties by first-detection period (table):
+2025-12-17 10:04:08 | STEP B | Reporting results (from disk)
+2025-12-17 10:04:09 | STEP C1 | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:04:09 | STEP C1 | Output locations:
+2025-12-17 10:04:09 |   - 01_intermediate/dens_nat_km2.tif
+2025-12-17 10:04:09 |   - 01_intermediate/dens_hum_km2.tif
+2025-12-17 10:04:09 |   - 01_intermediate/dens_all_km2.tif
+2025-12-17 10:04:09 | STEP C1 | Density rasters ready for extraction/prediction.
+2025-12-17 10:04:11 | STEP C2 | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:04:11 | STEP C2 | Output locations:
+2025-12-17 10:04:11 |   - 01_intermediate/dist_major_rivers_km.tif
+2025-12-17 10:04:11 | STEP C2 | Distance raster ready for extraction/prediction.
+2025-12-17 10:04:12 | STEP D | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:04:12 | STEP D | Output locations:
+2025-12-17 10:04:12 |   - 02_occ/pres_thin_10km.csv
+2025-12-17 10:04:12 |   - 02_occ/Otter_TX_Presence_Env.csv
+2025-12-17 10:04:12 | STEP D | Thinned presence points (n): 365  [manuscript cross-check]
+2025-12-17 10:04:12 | STEP D | Presence env table rows (n complete cases): 365
+2025-12-17 10:04:14 | STEP E | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:04:15 | STEP E | Output locations:
+2025-12-17 10:04:15 |   - 02_occ/Otter_TX_Background_Env.csv
+2025-12-17 10:04:15 | STEP E | Background samples extracted (n complete cases): 10000
+2025-12-17 10:04:16 | STEP F | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:04:16 | STEP F | Output locations:
+2025-12-17 10:04:16 |   - 03_models/Otter_Maxnet_kfold_tuning_results.csv
+2025-12-17 10:04:16 |   - 03_models/Otter_Maxnet_kfold_fold_metrics.csv
+2025-12-17 10:04:16 | STEP F | Best CV model (from disk): fc=lqh rm=0.5 | mean AUC=0.8579 ± 0.0114 | mean omit10=0.1151 ± 0.046  [manuscript cross-check]
+2025-12-17 10:04:19 | STEP G | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:04:19 | STEP G | Output locations:
+2025-12-17 10:04:19 |   - 03_models/Otter_Maxnet_NHD_natHum.rds
+2025-12-17 10:04:19 |   - 03_models/Otter_Maxnet_NHD_omit10.txt
+2025-12-17 10:04:19 | STEP G | Omit-10% threshold (cloglog): 0.351205  [manuscript cross-check]
+2025-12-17 10:04:22 | STEP H | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:04:22 | STEP H | Output locations:
+2025-12-17 10:04:22 |   - 04_pred/Otter_Maxnet_NHD_current_cloglog.tif
+2025-12-17 10:04:22 |   - 04_pred/Otter_Maxnet_NHD_noHuman_cloglog.tif
+2025-12-17 10:04:22 | STEP H | Reminder: threshold for GIS binary maps (omit-10% cloglog) = 0.351205
+2025-12-17 10:04:25 | STEP I | RUNNING (overwrite=FALSE)
+2025-12-17 10:31:03 | STEP I | Output locations:
+2025-12-17 10:31:03 |   - 03_models/Otter_Maxnet_beta_raw_features.csv
+2025-12-17 10:31:03 |   - 03_models/Otter_Maxnet_predictor_importance.csv
+2025-12-17 10:31:03 |   - 05_figs/Otter_Maxnet_predictor_importance.png
+2025-12-17 10:31:03 |   - 05_figs/Otter_Maxnet_beta_features.png
+2025-12-17 10:31:03 |   - 05_figs/Otter_Maxnet_response_curves_allWater.png
+2025-12-17 10:31:03 | STEP I | Predictor importance Σ|β| (from disk; manuscript cross-check):
+2025-12-17 10:31:03 | STEP I | Figures written: 05_figs/Otter_Maxnet_predictor_importance.png ; 05_figs/Otter_Maxnet_beta_features.png ; 05_figs/Otter_Maxnet_response_curves_allWater.png
+2025-12-17 10:31:05 | STEP K | RUNNING (overwrite=FALSE)
+2025-12-17 10:31:05 | STEP K | Rows used (complete cases): 209
+2025-12-17 10:31:07 | STEP K | Wrote summary stats: 07_results/CostAccessibility_summary_stats.csv
+2025-12-17 10:31:08 | STEP K | Wrote correlations:  07_results/CostAccessibility_correlations.csv
+2025-12-17 10:31:08 | STEP K | Wrote tests:         07_results/CostAccessibility_tests.txt
+2025-12-17 10:31:08 | STEP K | Output locations:
+2025-12-17 10:31:08 |   - 07_results/CostAccessibility_summary_stats.csv
+2025-12-17 10:31:08 |   - 07_results/CostAccessibility_correlations.csv
+2025-12-17 10:31:08 |   - 07_results/CostAccessibility_tests.txt
+2025-12-17 10:31:08 |   - 05_figs/DeltaCost_histogram.png
+2025-12-17 10:31:08 |   - 05_figs/DeltaCost_density.png
+2025-12-17 10:31:08 |   - 05_figs/Nat_vs_Curr_boxplot.png
+2025-12-17 10:31:08 |   - 05_figs/Nat_vs_Curr_scatter.png
+2025-12-17 10:31:08 |   - 05_figs/BlandAltman_Curr_minus_Nat.png
+2025-12-17 10:31:08 | STEP K | Summary stats (from disk):
+2025-12-17 10:31:08 | STEP K | Plots written to 05_figs/
+2025-12-17 10:37:49 | STEP K | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:37:50 | STEP K | Output locations:
+2025-12-17 10:37:50 |   - 07_results/CostAccessibility_summary_stats.csv
+2025-12-17 10:37:50 |   - 07_results/CostAccessibility_correlations.csv
+2025-12-17 10:37:50 |   - 07_results/CostAccessibility_tests.txt
+2025-12-17 10:37:50 |   - 05_figs/DeltaCost_histogram.png
+2025-12-17 10:37:50 |   - 05_figs/DeltaCost_density.png
+2025-12-17 10:37:50 |   - 05_figs/Nat_vs_Curr_boxplot.png
+2025-12-17 10:37:50 |   - 05_figs/Nat_vs_Curr_scatter.png
+2025-12-17 10:37:50 |   - 05_figs/BlandAltman_Curr_minus_Nat.png
+2025-12-17 10:37:50 | STEP K | Summary stats (from disk):
+2025-12-17 10:37:50 | STEP K | Plots written to 05_figs/
+2025-12-17 10:38:39 | STEP K | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:38:39 | STEP K | Output locations:
+2025-12-17 10:38:39 |   - 07_results/CostAccessibility_summary_stats.csv
+2025-12-17 10:38:39 |   - 07_results/CostAccessibility_correlations.csv
+2025-12-17 10:38:39 |   - 07_results/CostAccessibility_tests.txt
+2025-12-17 10:38:39 |   - 05_figs/DeltaCost_histogram.png
+2025-12-17 10:38:39 |   - 05_figs/DeltaCost_density.png
+2025-12-17 10:38:39 |   - 05_figs/Nat_vs_Curr_boxplot.png
+2025-12-17 10:38:39 |   - 05_figs/Nat_vs_Curr_scatter.png
+2025-12-17 10:38:39 |   - 05_figs/BlandAltman_Curr_minus_Nat.png
+2025-12-17 10:38:39 | STEP K | Summary stats (from disk):
+2025-12-17 10:38:39 | STEP K | Plots written to 05_figs/
+2025-12-17 10:41:00 | STEP K | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:41:00 | STEP K | Output locations:
+2025-12-17 10:41:00 |   - 07_results/CostAccessibility_summary_stats.csv
+2025-12-17 10:41:00 |   - 07_results/CostAccessibility_correlations.csv
+2025-12-17 10:41:00 |   - 07_results/CostAccessibility_tests.txt
+2025-12-17 10:41:00 |   - 05_figs/DeltaCost_histogram.png
+2025-12-17 10:41:00 |   - 05_figs/DeltaCost_density.png
+2025-12-17 10:41:00 |   - 05_figs/Nat_vs_Curr_boxplot.png
+2025-12-17 10:41:00 |   - 05_figs/Nat_vs_Curr_scatter.png
+2025-12-17 10:41:00 |   - 05_figs/BlandAltman_Curr_minus_Nat.png
+2025-12-17 10:41:00 | STEP K | Summary stats (from disk):
+2025-12-17 10:41:00 | STEP K | Plots written to 05_figs/
+2025-12-17 10:41:04 | STEP J | SKIPPING (overwrite=FALSE); outputs already exist.
+2025-12-17 10:41:04 | STEP J | Output locations:
+2025-12-17 10:41:04 |   - 07_results/sessionInfo_full_pipeline.txt
+2025-12-17 10:41:04 | STEP J | Session info written: 07_results/sessionInfo_full_pipeline.txt
+2025-12-17 10:41:05 | PIPELINE COMPLETE.
+2025-12-17 10:41:06 | Log written to: 07_results/pipeline_log.txt

@@ -1,0 +1,2 @@
+base_scenario,current_scenario,area_base_km2,area_current_km2,delta_km2,delta_percent
+No human water (dens_hum = 0),Current (nat + human water),104747.532300001,418219.676100003,313472.143800002,299.2644665863876

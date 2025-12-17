@@ -1,0 +1,13 @@
+Rows used (complete cases): 209
+
+Paired comparison: CurrDistAcc vs NatDistAcc
+Mean difference (Curr - Nat): 66943.3
+SD difference: 92069.1
+Cohen's d (paired, on differences): 0.727098
+
+Paired t-test:
+  t = 10.5115, df = 208, p = 5.30577e-21
+  95% CI of mean diff: [54388.1, 79498.5]
+
+Wilcoxon signed-rank test:
+  V = 8778, p = 2.11497e-23

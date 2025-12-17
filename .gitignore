@@ -1,0 +1,21 @@
+# RStudio / R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Big rasters (keep on Zenodo, not GitHub)
+*.tif
+*.tiff
+*.grd
+*.gri
+
+# If you have other big raster formats:
+*.img
+*.vrt
+
+# Optional: terra temp files
+_terra_tmp/
+
+# Large rasters (archived on Zenodo)
+00_raw/nhd/*.tif
