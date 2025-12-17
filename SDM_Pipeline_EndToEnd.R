@@ -49,7 +49,7 @@ rm_grid <- c(0.5, 1.0, 1.5, 2.0, 3.0)
 
 # overwrite = TRUE ensures full regeneration of all outputs for reproducibility
 # overwrite = FALSE = reuse existing outputs; STILL prints results from disk.
-overwrite      <- FALSE
+overwrite      <- TRUE
 
 # Equal-area CRS used for thinning + county join buffering
 crs_area       <- "EPSG:5070"   # NAD83 / Conus Albers

@@ -160,3 +160,19 @@
 2025-12-17 10:41:04 | STEP J | Session info written: 07_results/sessionInfo_full_pipeline.txt
 2025-12-17 10:41:05 | PIPELINE COMPLETE.
 2025-12-17 10:41:06 | Log written to: 07_results/pipeline_log.txt
+2025-12-17 16:53:28 | STEP K | RUNNING (overwrite=TRUE)
+2025-12-17 16:53:29 | STEP K | Rows used (complete cases): 209
+2025-12-17 16:53:33 | STEP K | Wrote summary stats: 07_results/CostAccessibility_summary_stats.csv
+2025-12-17 16:53:33 | STEP K | Wrote correlations:  07_results/CostAccessibility_correlations.csv
+2025-12-17 16:53:33 | STEP K | Wrote tests:         07_results/CostAccessibility_tests.txt
+2025-12-17 16:53:33 | STEP K | Output locations:
+2025-12-17 16:53:33 |   - 07_results/CostAccessibility_summary_stats.csv
+2025-12-17 16:53:33 |   - 07_results/CostAccessibility_correlations.csv
+2025-12-17 16:53:33 |   - 07_results/CostAccessibility_tests.txt
+2025-12-17 16:53:33 |   - 05_figs/DeltaCost_histogram.png
+2025-12-17 16:53:33 |   - 05_figs/DeltaCost_density.png
+2025-12-17 16:53:33 |   - 05_figs/Nat_vs_Curr_boxplot.png
+2025-12-17 16:53:33 |   - 05_figs/Nat_vs_Curr_scatter.png
+2025-12-17 16:53:33 |   - 05_figs/BlandAltman_Curr_minus_Nat.png
+2025-12-17 16:53:33 | STEP K | Summary stats (from disk):
+2025-12-17 16:53:33 | STEP K | Plots written to 05_figs/
